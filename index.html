@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    
+</head>
+<body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;background-color: lightgreen;">
+    
+    
+    <form action="" id="form" style="border: 2px red;top: 0%;">
+        <div style="text-align: center;position: sticky;
+        top: 0px;
+        padding: 10px 0px;background-color: brown;" >
+    <h1 style="top: 0;color: darkblue;width: 100%;height: 80px;">Geeskter admission form</h1>
+
+    
+   
+    
+</div>
+    <div>
+        <h4 style="color: red; text-align: center; width: 100%;">* Fill all the details *</h4>
+        <h3>Full Name:</h3>
+        <input  type="text" name="" id="name" placeholder="your name"required>
+        <h3>Phone number</h3>
+        <input type="text" name="number" id="number" maxlength="12">
+        <h3>Please select your subject:</h3>
+    <input type="radio" id="subject1" value="1">
+      <label for="subject1">Android developement</label><br>
+      <input type="radio" id="subject2" value="2">
+      <label for="subject2">Web developement</label><br>
+      <input type="radio" id="subject3" value="3">
+      <label for="subject3">Machine learning</label>
+
+</div>
+<div>
+    <h3>Your education history</h3>
+    <input type="checkbox" id="1">
+<label for="1">Graduated</label><br>
+<input type="checkbox" id="2">
+<label for="2">In college</label>
+</label><br>
+<input type="checkbox" id="3">
+<label for="3"> In school </label><br>
+
+<h3>Enter your email:</h3>
+<input type="email" id="email"placeholder="email" required>
+</div>
+<br>
+<br>
+
+<button onclick="submit" type="submit">Submit</button>
+</form>
+<script>
+   const name = document.getElementById('name').value;
+   const phone = document.getElementById('number').value;
+   const subject = document.getElementById('subject1').value;
+   const education = document.getElementById('1').value;
+   const email = document.getElementById('email').value;
+   submit = console.log("name" + "email");
+
+</script>
+
+    
+</body>
+</html>
